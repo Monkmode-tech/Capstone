@@ -7,7 +7,7 @@ class ProfileFetcher: ObservableObject {
     @Published var errorMessage: String? = nil
     @Published var gender: String = "men" // or "women"
     
-    private let apiKey = Secrets.pexelsAPIKey
+    private let apiKey = "U47vf4WgKAzeTz7DXxW7htHAff4hN3lzYPHVJ5wG9ES07ttCXEY3RZAc"
     private let perPage = 15
     private var currentPage = 1
     

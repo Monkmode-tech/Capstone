@@ -26,4 +26,4 @@ The user interface consists of the following components:
 - A history view to display the list of liked profiles
 - Simple and clean layout with a focus on user experience
 
-![DatingApp UI](DatingApp/Media/DatingAppTutorial.mp4)
+![DatingApp UI](DatingApp/Media/DatingAppTutorial.gif)
