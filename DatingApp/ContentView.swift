@@ -165,5 +165,4 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: LikedProfile.self, inMemory: true)
 }

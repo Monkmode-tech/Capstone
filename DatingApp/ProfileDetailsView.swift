@@ -38,21 +38,10 @@ struct ProfileDetailsView: View {
 }
 
 #Preview {
-    VStack(spacing: 20) {
-        ProfileDetailsView(
-            imageUrl: "https://images.pexels.com/photos/12345/pexels-photo-12345.jpeg",
-            photographer: "Jane Doe",
-            alt: "Sample profile",
-            imageHeight: 100
-        )
-        ProfileDetailsView(
-            imageUrl: "https://images.pexels.com/photos/67890/pexels-photo-67890.jpeg",
-            photographer: "John Smith",
-            alt: "Another profile",
-            imageHeight: 60,
-            isHistory: true,
-            liked: false
-        )
-    }
-    .padding()
+    ProfileDetailsView(
+        imageUrl: "https://images.pexels.com/photos/12345/pexels-photo-12345.jpeg",
+        photographer: "Jane Doe",
+        alt: "Sample profile",
+        imageHeight: 350
+    )
 }

@@ -39,7 +39,3 @@ struct Profile: Identifiable, Codable, Equatable {
         let tiny: String
     }
 }
-
-struct PexelsResponse: Codable {
-    let photos: [Profile]
-}
